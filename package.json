@@ -1,0 +1,19 @@
+{
+  "name": "www.sfbayareainsurance.com",
+  "version": "1.0.0",
+  "description": "A public-facing site to generate leads for insurance.",
+  "author": "captproton",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
