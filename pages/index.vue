@@ -1,77 +1,54 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        www.sfbayareainsurance.com
-      </h1>
-      <h2 class="subtitle">
-        A public-facing site to generate leads for insurance.
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    <!-- start -->
+    <div class="hero">
+      <div class="hero-header"> 
+        <h1>bay area CAR INSURANCE</h1>
+        <!-- background photo credit: https://www.twenty20.com/photos/f221bd8f-d1ec-4f61-bba7-b2e5d797ff3e/?utm_t20_channel=bl -->
       </div>
-    </div>
+    </div> 
+    <!-- end -->
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
+  export default {
+    
   }
-}
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+<style lang="scss" scoped>
+.hero {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+align-items: stretch;
 }
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.hero {
+  background: center / contain no-repeat url('~assets/images/road-trip-to-nowhere_t20_oow6yx.jpg');
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  height: 87vh; // Always 100% of the viewport's height
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; // 5 rows
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; // 5 columns
+  grid-gap: 5px; // 5x5 works well for centering
+}
+.hero-header { 
+  grid-area: 3 / 2 / 4 / 5; 
+  color: #ffffff;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
   text-align: center;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
