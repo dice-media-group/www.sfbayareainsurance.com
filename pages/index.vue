@@ -1,77 +1,140 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        www.sfbayareainsurance.com
-      </h1>
-      <h2 class="subtitle">
-        A public-facing site to generate leads for insurance.
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <main>
+    <!-- start -->
+    <section class="hero">
+          <h1>SF BAY AREA INSURANCE</h1>
+    <article>
+      <p>"This is the precept by which I have lived: Prepare for the worst; expect the best; and take what comes." </p>
+      <p>~ Hannah Arendt</p>
+    </article>
+
+      <!-- <div class="hero-header">  -->
+        <!-- <h1>bay area CAR INSURANCE</h1> -->
+        <!-- background photo credit: https://www.twenty20.com/photos/f221bd8f-d1ec-4f61-bba7-b2e5d797ff3e/?utm_t20_channel=bl -->
+      <!-- </div> -->
+    </section> 
+
+    <div class="cta-box secondary-background-color">
+      <ul>
+        <li>
+          <h3 class="fl-heading secondary-color">
+            <span class="fl-heading-text">GET A FREE ATLANTA INSURANCE QUOTE</span>
+          </h3>
+        </li>
+        <li>
+            <button class="bg-green-500 
+              hover:bg-green-400 
+              text-white font-bold 
+              py-2 px-4 
+              border-b-4 
+              border-green-700 
+              hover:border-green-500 
+              rounded
+              w-10/12">
+            Instant Quote
+          </button>
+        </li>
+        <li >
+          <button class="bg-white
+            hover:bg-gray-400 
+            text-blue-500
+            font-bold 
+            py-2 
+            px-4 
+            rounded
+            w-10/12">
+            Instant Quote
+          </button>
+        </li>
+      </ul>
+    </div>     
+<!-- end -->
+  </main>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
+  export default {
+    
   }
-}
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
+<style lang="scss" scoped>
 .container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.secondary-color {
+  color: #ffffff;
+}
+.secondary-background-color {
+  background: #1a92cd;
+}
+/* .hero {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+align-items: stretch;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
+/* Styles for the hero image */
+.hero {
+  /* Photo by mnm.all on Unsplash */
+  background: url('~assets/images/road-trip-to-nowhere_t20_oow6yx.jpg') center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  height: 75vh;
+}
+
+.hero > * {
+  color: white;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.hero > article > p {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.hero > article > a {
+  padding: 1rem;
+  margin-top: .75rem;
+}
+
+/* Styles for Call to Action */
+.cta-box {
+  background: #1a92cd;
+  height: 25vh;
+
+}
+.cta-box > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.cta-box > ul > li {
+  border-color:  #1a92cd;
+  background: #1a92cd;
+
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+
+.fl-heading {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
 }
 
-.links {
-  padding-top: 15px;
-}
 </style>
