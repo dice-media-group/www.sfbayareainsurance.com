@@ -113,6 +113,7 @@
         </div>
       </section>
       <section class="got-you-covered">
+          <IntroHeadlineAndArticle />
         <article>
             <div class="fl-module fl-module-heading fl-node-58cab3728a0a7" data-node="58cab3728a0a7">
                 <div class="fl-module-content fl-node-content">
@@ -123,7 +124,14 @@
                     </h3>
                 </div>
             </div>
-            <h2 class="subtitle"></h2>
+            <!-- subtitle start -->
+            <div class="fl-module-content fl-node-content">
+                <h4 class="fl-heading">
+                    <span class="fl-heading-text">The three main types of coverage that an auto policy might include:</span>
+                </h4>
+            </div>
+            <!-- subtitle finish -->
+            
             <AnimatedCoverageGrid />
         </article>
       </section>
@@ -917,9 +925,11 @@
 
 <script>
   import AnimatedCoverageGrid from './partials/index/animated_coverage_grid';
+  import IntroHeadlineAndArticle from './partials/index/intro-headline-and-article';
   export default {
     components: {
       AnimatedCoverageGrid,
+      IntroHeadlineAndArticle
     }
   }
 </script>
