@@ -861,69 +861,13 @@
         </div>
       </div>
     </main>
-    <div class="aside-plus-footer">
-      <aside>
-        <div class="textwidget">
-          <p>
-            <img
-              src="/wp-content/uploads/2017/03/atlanta-insurance-700x140-v4.png"
-            />
-          </p>
-          <p>&nbsp;</p>
-          <p>
-            Articles on this site are to be used for informational purposes only
-            and are not intended to replace the advice of an insurance
-            professional.<br />
-            <strong
-              >Give us a call:
-              <a href="tel:4043520304">(404) 352-0304</a></strong
-            >
-          </p>
-          <p>
-            <b>Address:</b><br />
-            1830 Water Place<br />
-            Suite 105<br />
-            Atlanta, GA 30339
-          </p>
-        </div>
-      </aside>
-    </div>
-    <footer>
-      <div class="new-from-sfbayareainsurance">
-        <h1 class="title">New from SF Bay Area Insurance</h1>
-        <ul>
-          <li>
-            <a href="#">How does a car insurance deductible work?</a>
-          </li>
-          <li>
-            <a href="#">6 reasons to do a auto insurance review every year</a>
-          </li>
-          <li>
-            <a href="#"
-              >7 things to know about car insurance if you’re moving</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              >Does car insurance cover your belongings if they’re stolen from
-              your car?</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              >What’s the difference between an insurance score and a credit
-              score?</a
-            >
-          </li>
-        </ul>
-      </div>
-    </footer>
+
     <!-- end -->
   </div>
 </template>
 
 <script>
-export default {};
+
 </script>
 
 <style lang="scss" scoped>

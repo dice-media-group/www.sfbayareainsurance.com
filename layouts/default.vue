@@ -1,9 +1,22 @@
 <template>
   <div>
     <nuxt />
+
+    <!-- footer goes here -->
+    <Footer />
+
   </div>
 </template>
-
+<script>
+  import Aside from '~/layouts/partials/aside';
+  import Footer from './partials/footer';
+  export default {
+    components: {
+      Aside,
+      Footer
+    }
+  }
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -51,5 +64,11 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.site-footers {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 </style>
