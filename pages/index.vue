@@ -23,7 +23,7 @@
           <li>
             <h3 class="fl-heading secondary-color">
               <span class="fl-heading-text"
-                >GET A FREE ATLANTA INSURANCE QUOTE</span
+                >GET A FREE SF BAY AREA INSURANCE QUOTE</span
               >
             </h3>
           </li>
@@ -101,7 +101,7 @@
         <div class="insco">
           <img
             class="uabb-photo-img wp-image-255"
-            src="https://atlantainsurance.com/wp-content/uploads/2017/03/travelers-1-e1534776223951.png"
+            src="~assets/images/travelers-1-e1534776223951.png"
             alt="safeco insurance quotes"
             itemprop="image"
             srcset="
@@ -114,9 +114,17 @@
       </section>
       <section class="got-you-covered">
         <article>
-          <h1 class="title"></h1>
-          <h2 class="subtitle"></h2>
-          <picture></picture>
+            <div class="fl-module fl-module-heading fl-node-58cab3728a0a7" data-node="58cab3728a0a7">
+                <div class="fl-module-content fl-node-content">
+                    <h3 class="fl-heading">
+                        <span class="fl-heading-text">
+                            What are the main coverages included in an auto policy if I live in the SF Bay Area?
+                        </span>
+                    </h3>
+                </div>
+            </div>
+            <h2 class="subtitle"></h2>
+            <AnimatedCoverageGrid />
         </article>
       </section>
       <section class="three-kinds-of-coverage">
@@ -131,14 +139,16 @@
             </ul>
           </div>
 
-          <h1 class="title">
-            Are there different kinds of car insurance? What do they do?
-          </h1>
-          <h2 class="subtitle">
-            Yes, there are lots of different kinds of car insurance that you
-            might consider when insuring your vehicle. Here are some of the main
-            ones:
-          </h2>
+          <h3 class="fl-heading">
+		    <span class="fl-heading-text">Are there different kinds of car insurance?<br>What do they do?</span>
+	      </h3>
+        <div class="fl-module fl-module-heading fl-node-595e988fc70ce" data-node="595e988fc70ce">
+            <div class="fl-module-content fl-node-content">
+                <h4 class="fl-heading">
+                <span class="fl-heading-text">Yes, there are lots of different kinds of car insurance that you might consider when insuring your vehicle. Here are some of the main ones:</span>
+            </h4>
+            </div>
+        </div>
           <p>
             <span style="font-size: 18px;"
               ><strong>Bodily injury liability (aka BI)</strong
@@ -202,7 +212,7 @@
             <span class="fl-heading-text">GET A CAR INSURANCE QUOTE NOW</span>
           </h4>
           <span class="fl-heading-text"
-            >Our agents shop. You save on your car insurance in Atlanta.</span
+            >Our agents shop. You save on your car insurance in the SF Bay Area.</span
           >
           <div class="uabb-gf-style uabb-gf-form-style1">
             <div
@@ -324,7 +334,7 @@
               jQuery(document).ready(function($) {
                 gformInitSpinner(
                   8,
-                  "https://atlantainsurance.com/wp-content/plugins/gravityforms/images/spinner.gif"
+                  "~assets/images/spinner.gif"
                 );
                 jQuery("#gform_ajax_frame_8").on("load", function() {
                   var contents = jQuery(this)
@@ -376,7 +386,7 @@
                     ).val();
                     gformInitSpinner(
                       8,
-                      "https://atlantainsurance.com/wp-content/plugins/gravityforms/images/spinner.gif"
+                      "https://www.sfbayareainsurance.com/wp-content/plugins/gravityforms/images/spinner.gif"
                     );
                     jQuery(document).trigger("gform_page_loaded", [
                       8,
@@ -454,44 +464,58 @@
         </div>
 
         <article>
-          <h1 class="title">
-            What’s the difference between collision insurance and comprehensive
-            insurance?
-          </h1>
-          <h2 class="subtitle">
-            COLLISION INSURANCE
-          </h2>
+            <div class="fl-module-content fl-node-content">
+                <h3 class="fl-heading">
+                    <span class="fl-heading-text">What’s the difference between collision insurance and comprehensive insurance?</span>
+                </h3>
+            </div>
 
-          <p>
-            <span style="font-weight: 400;">
-              <span style="font-size: 18px;">
-                <strong>Collision insurance</strong>, like the name suggests,
-                has to do with accidents. Collision insurance can help cover the
-                cost of damages to your car from an accident. Remember, you
-                still have to pay your deductible. But collision insurance takes
-                care of the rest (up to the policy’s limit.)
-              </span>
-            </span>
-          </p>
+            <div class="content-grid">
+                <div class="content-cell">
+                    <h2 class="subtitle">
+                        COLLISION INSURANCE
+                    </h2>
 
-          <h2 class="subtitle">
-            COMPREHENSIVE INSURANCE
-          </h2>
+                    <p>
+                        <span style="font-weight: 400;">
+                        <span style="font-size: 18px;">
+                            <strong>Collision insurance</strong>, like the name suggests,
+                            has to do with accidents. Collision insurance can help cover the
+                            cost of damages to your car from an accident. Remember, you
+                            still have to pay your deductible. But collision insurance takes
+                            care of the rest (up to the policy’s limit.)
+                        </span>
+                        </span>
+                    </p>
+                </div>
+                <div class="content-cell">
+                    <h2 class="subtitle">
+                        COMPREHENSIVE INSURANCE
+                    </h2>
 
-          <p>
-            <span style="font-weight: 400; font-size: 18px;">
-              <strong>Comprehensive insurance</strong> can take care of losses
-              or damages that were not caused by an accident, like if a tree
-              branch fell and hit your car. It can also cover theft, fire,
-              vandalism, and animal strikes.
-            </span>
-          </p>
+                    <p>
+                        <span style="font-weight: 400; font-size: 18px;">
+                        <strong>Comprehensive insurance</strong> can take care of losses
+                        or damages that were not caused by an accident, like if a tree
+                        branch fell and hit your car. It can also cover theft, fire,
+                        vandalism, and animal strikes.
+                        </span>
+                    </p>                
+                    
+                </div>
+
+            </div>
+
         </article>
 
         <article>
-          <h1 class="title">
-            What is a car insurance deductible?
-          </h1>
+        <div class="fl-module fl-module-heading fl-node-595e9cac07db7" data-node="595e9cac07db7">
+            <div class="fl-module-content fl-node-content">
+                <h3 class="fl-heading">
+                <span class="fl-heading-text">What is a car insurance deductible?</span>
+            </h3>
+            </div>
+        </div>
 
           <p>
             <span style="font-weight: 400; font-size: 18px;">
@@ -502,28 +526,53 @@
           </p>
         </article>
 
+<!-- learn more start -->
+        <div class="fl-col-group fl-node-58cab37289ef6" data-node="58cab37289ef6">
+            <div class="fl-col fl-node-58cab37289f3a" data-node="58cab37289f3a">
+                <div class="fl-col-content fl-node-content">
+                    <div class="fl-module fl-module-heading fl-node-595e944c377fb" data-node="595e944c377fb">
+                        <div class="fl-module-content fl-node-content">
+                            <h3 class="fl-heading">
+                                <span class="fl-heading-text">Read more about Atlanta car insurance</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="fl-module fl-module-button fl-node-58cab3728a0e9 fl-animation fl-fade-up fl-animated" data-node="58cab3728a0e9" data-animation-delay="0">
+                        <div class="fl-module-content fl-node-content">
+                            <div class="fl-button-wrap fl-button-width-custom fl-button-center fl-button-has-icon">
+                                <a href="/learn-more/" target="_self" class="fl-button fl-button-icon-animation" role="button">
+                                    <span class="fl-button-text">CAR INSURANCE ARTICLES</span>
+                                    <i class="fl-button-icon fl-button-icon-after fa fa-car" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- learn more finish -->
         <div class="learn-more">
-          <h1 class="title">
-            Read more about Atlanta car insurance
-          </h1>
+            <h1 class="title">
+                Read more about Atlanta car insurance
+            </h1>
 
-          <!-- button link to car insurance articles -->
-          <div
-            class="fl-button-wrap fl-button-width-custom fl-button-center fl-button-has-icon"
-          >
-            <a
-              href="/learn-more/"
-              target="_self"
-              class="fl-button fl-button-icon-animation"
-              role="button"
+            <!-- button link to car insurance articles -->
+            <div
+                class="fl-button-wrap fl-button-width-custom fl-button-center fl-button-has-icon"
             >
-              <span class="fl-button-text">CAR INSURANCE ARTICLES</span>
-              <i
-                class="fl-button-icon fl-button-icon-after fa fa-car"
-                aria-hidden="true"
-              ></i>
-            </a>
-          </div>
+                <a
+                href="/learn-more/"
+                target="_self"
+                class="fl-button fl-button-icon-animation"
+                role="button"
+                >
+                <span class="fl-button-text">CAR INSURANCE ARTICLES</span>
+                <i
+                    class="fl-button-icon fl-button-icon-after fa fa-car"
+                    aria-hidden="true"
+                ></i>
+                </a>
+            </div>
         </div>
       </section>
       <div class="car-insurance-quote-now">
@@ -692,7 +741,7 @@
                           jQuery(document).ready(function($) {
                             gformInitSpinner(
                               8,
-                              "https://atlantainsurance.com/wp-content/plugins/gravityforms/images/spinner.gif"
+                              "https://www.sfbayareainsurance.com/wp-content/plugins/gravityforms/images/spinner.gif"
                             );
                             jQuery("#gform_ajax_frame_8").on(
                               "load",
@@ -766,7 +815,7 @@
                                   ).val();
                                   gformInitSpinner(
                                     8,
-                                    "https://atlantainsurance.com/wp-content/plugins/gravityforms/images/spinner.gif"
+                                    "https://www.sfbayareainsurance.com/wp-content/plugins/gravityforms/images/spinner.gif"
                                   );
                                   jQuery(document).trigger(
                                     "gform_page_loaded",
@@ -867,7 +916,12 @@
 </template>
 
 <script>
-
+  import AnimatedCoverageGrid from './partials/index/animated_coverage_grid';
+  export default {
+    components: {
+      AnimatedCoverageGrid,
+    }
+  }
 </script>
 
 <style lang="scss" scoped>
@@ -952,15 +1006,28 @@ align-items: stretch;
   text-align: left;
 }
 
+ h3.fl-heading a,
+ h3.fl-heading .fl-heading-text,
+ h3.fl-heading .fl-heading-text *,
+ h3.fl-heading .fl-heading-text {
+ color: #1a92cd;
+}
 .insurance-tags {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 8px;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .insurance-tags > img {
   line-height: 0;
+  align-self: center;    /* vertical centering */
+}
+.content-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 </style>

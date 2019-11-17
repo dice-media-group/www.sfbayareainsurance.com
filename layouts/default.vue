@@ -37,6 +37,9 @@ html {
   margin: 0;
 }
 
+img {
+    vertical-align: middle;
+}
 .button--green {
   display: inline-block;
   border-radius: 4px;
