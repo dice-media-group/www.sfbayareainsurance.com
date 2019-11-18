@@ -21,7 +21,7 @@
 
 
             <div class="fl-rich-text">
-                <p><span style="font-weight: 400; font-size: 18px;">If you’re an <a href="/sfbayarea-home-insurance/">SF Bay Area</a> resident, you know how treacherous the traffic can be. At times, it feels downright dangerous to venture onto the roads. Have you seen Peachtree Street at rush hour? Anyways, we can help you protect yourself and your vehicle with <a href="/car-insurance-questions/">car insurance</a>.</span></p>
+                <p><span style="font-weight: 400; font-size: 18px;">If you’re an <a href="/sfbayarea-home-insurance/">SF Bay Area</a> resident, you know how treacherous the traffic can be. At times, it feels downright dangerous to venture onto the roads. Have you seen the 101 or I-80 at rush hour? Anyways, we can help you protect yourself and your vehicle with <a href="/car-insurance-questions/">car insurance</a>.</span></p>
                 <p><span style="font-weight: 400;"><span style="font-size: 18px;">Auto insurance was designed to protect drivers from any losses that might result from an accident or other catastrophe involving their vehicles. Insurance policies vary based on what you need and what your specific risks are, and sometimes it can get complicated. We’ve broken down the basics of what you need to know about auto insurance.</span> </span></p>
             </div>
         
@@ -109,7 +109,5 @@ p {
   justify-content: center
     }
     .img-container > img {
-             height: 87%;
-        max-width: 87%;
     }
 </style>

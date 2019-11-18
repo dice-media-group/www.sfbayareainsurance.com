@@ -214,263 +214,8 @@
             >
           </p>
         </article>
-
-        <div class="agent-quote">
-          <h4>
-            <span class="fl-heading-text">GET A CAR INSURANCE QUOTE NOW</span>
-          </h4>
-          <span class="fl-heading-text"
-            >Our agents shop. You save on your car insurance in the SF Bay Area.</span
-          >
-          <div class="uabb-gf-style uabb-gf-form-style1">
-            <div
-              class="gf_browser_gecko gform_wrapper gf_simple_horizontal_wrapper"
-              id="gform_wrapper_8"
-            >
-              <div id="gf_8" class="gform_anchor" tabindex="-1"></div>
-              <form
-                method="post"
-                enctype="multipart/form-data"
-                target="gform_ajax_frame_8"
-                id="gform_8"
-                class="gf_simple_horizontal"
-                action="/auto-insurance/#gf_8"
-                siq_id="autopick_2837"
-              >
-                <div class="gform_body">
-                  <ul
-                    id="gform_fields_8"
-                    class="gform_fields top_label form_sublabel_below description_below"
-                  >
-                    <li
-                      id="field_8_1"
-                      class="gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"
-                    >
-                      <label class="gfield_label" for="input_8_1"
-                        >Zip Code<span class="gfield_required">*</span></label
-                      >
-                      <div class="ginput_container ginput_container_text">
-                        <input
-                          name="input_1"
-                          id="input_8_1"
-                          type="text"
-                          value=""
-                          class="large"
-                          maxlength="5"
-                          tabindex="2"
-                          placeholder="ZIP CODE"
-                          aria-required="true"
-                          aria-invalid="false"
-                        />
-                        <div
-                          class="charleft ginput_counter warningTextareaInfo"
-                        >
-                          0 of 5 max characters
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="gform_footer top_label">
-                  <input
-                    type="submit"
-                    id="gform_submit_button_8"
-                    class="gform_button button"
-                    value="GET A QUOTE"
-                    tabindex="3"
-                    onclick='if(window["gf_submitting_8"]){return false;}  if( !jQuery("#gform_8")[0].checkValidity || jQuery("#gform_8")[0].checkValidity()){window["gf_submitting_8"]=true;}  '
-                    onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_8"]){return false;} if( !jQuery("#gform_8")[0].checkValidity || jQuery("#gform_8")[0].checkValidity()){window["gf_submitting_8"]=true;}  jQuery("#gform_8").trigger("submit",[true]); }'
-                  />
-                  <input
-                    type="hidden"
-                    name="gform_ajax"
-                    value="form_id=8&amp;title=&amp;description=&amp;tabindex=2"
-                  />
-                  <input
-                    type="hidden"
-                    class="gform_hidden"
-                    name="is_submit_8"
-                    value="1"
-                  />
-                  <input
-                    type="hidden"
-                    class="gform_hidden"
-                    name="gform_submit"
-                    value="8"
-                  />
-
-                  <input
-                    type="hidden"
-                    class="gform_hidden"
-                    name="gform_unique_id"
-                    value=""
-                  />
-                  <input
-                    type="hidden"
-                    class="gform_hidden"
-                    name="state_8"
-                    value="WyJbXSIsIjIxZmJhMzU4NTY4ZjNmZTgzYjQ0Nzk0YjcxZWVkZWJjIl0="
-                  />
-                  <input
-                    type="hidden"
-                    class="gform_hidden"
-                    name="gform_target_page_number_8"
-                    id="gform_target_page_number_8"
-                    value="0"
-                  />
-                  <input
-                    type="hidden"
-                    class="gform_hidden"
-                    name="gform_source_page_number_8"
-                    id="gform_source_page_number_8"
-                    value="1"
-                  />
-                  <input type="hidden" name="gform_field_values" value="" />
-                </div>
-              </form>
-            </div>
-            <iframe
-              style="display:none;width:0px;height:0px;"
-              src="about:blank"
-              name="gform_ajax_frame_8"
-              id="gform_ajax_frame_8"
-              title="Ajax Frame"
-              >This iframe contains the logic required to handle Ajax powered
-              Gravity Forms.</iframe
-            >
-            <script type="text/javascript">
-              jQuery(document).ready(function($) {
-                gformInitSpinner(
-                  8,
-                  "~assets/images/spinner.gif"
-                );
-                jQuery("#gform_ajax_frame_8").on("load", function() {
-                  var contents = jQuery(this)
-                    .contents()
-                    .find("*")
-                    .html();
-                  var is_postback = contents.indexOf("GF_AJAX_POSTBACK") >= 0;
-                  if (!is_postback) {
-                    return;
-                  }
-                  var form_content = jQuery(this)
-                    .contents()
-                    .find("#gform_wrapper_8");
-                  var is_confirmation =
-                    jQuery(this)
-                      .contents()
-                      .find("#gform_confirmation_wrapper_8").length > 0;
-                  var is_redirect = contents.indexOf("gformRedirect(){") >= 0;
-                  var is_form =
-                    form_content.length > 0 && !is_redirect && !is_confirmation;
-                  var mt =
-                    parseInt(jQuery("html").css("margin-top"), 10) +
-                    parseInt(jQuery("body").css("margin-top"), 10) +
-                    100;
-                  if (is_form) {
-                    jQuery("#gform_wrapper_8").html(form_content.html());
-                    if (form_content.hasClass("gform_validation_error")) {
-                      jQuery("#gform_wrapper_8").addClass(
-                        "gform_validation_error"
-                      );
-                    } else {
-                      jQuery("#gform_wrapper_8").removeClass(
-                        "gform_validation_error"
-                      );
-                    }
-                    setTimeout(function() {
-                      /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(
-                        document
-                      ).scrollTop(jQuery("#gform_wrapper_8").offset().top - mt);
-                    }, 50);
-                    if (window["gformInitDatepicker"]) {
-                      gformInitDatepicker();
-                    }
-                    if (window["gformInitPriceFields"]) {
-                      gformInitPriceFields();
-                    }
-                    var current_page = jQuery(
-                      "#gform_source_page_number_8"
-                    ).val();
-                    gformInitSpinner(
-                      8,
-                      "https://www.sfbayareainsurance.com/wp-content/plugins/gravityforms/images/spinner.gif"
-                    );
-                    jQuery(document).trigger("gform_page_loaded", [
-                      8,
-                      current_page
-                    ]);
-                    window["gf_submitting_8"] = false;
-                  } else if (!is_redirect) {
-                    var confirmation_content = jQuery(this)
-                      .contents()
-                      .find(".GF_AJAX_POSTBACK")
-                      .html();
-                    if (!confirmation_content) {
-                      confirmation_content = contents;
-                    }
-                    setTimeout(function() {
-                      jQuery("#gform_wrapper_8").replaceWith(
-                        confirmation_content
-                      );
-                      jQuery(document).scrollTop(
-                        jQuery("#gf_8").offset().top - mt
-                      );
-                      jQuery(document).trigger("gform_confirmation_loaded", [
-                        8
-                      ]);
-                      window["gf_submitting_8"] = false;
-                    }, 50);
-                  } else {
-                    jQuery("#gform_8").append(contents);
-                    if (window["gformRedirect"]) {
-                      gformRedirect();
-                    }
-                  }
-                  jQuery(document).trigger("gform_post_render", [
-                    8,
-                    current_page
-                  ]);
-                });
-              });</script
-            ><script type="text/javascript">
-              jQuery(document).bind("gform_post_render", function(
-                event,
-                formId,
-                currentPage
-              ) {
-                if (formId == 8) {
-                  if (!jQuery("#input_8_1+.ginput_counter").length) {
-                    jQuery("#input_8_1").textareaCount({
-                      maxCharacterSize: 5,
-                      originalStyle: "ginput_counter",
-                      truncate: true,
-                      errorStyle: "",
-                      displayFormat: "#input of #max max characters"
-                    });
-                    jQuery("input_8_1")
-                      .next(".ginput_counter")
-                      .attr("aria-live", "polite");
-                  }
-                  if (typeof Placeholders != "undefined") {
-                    Placeholders.enable();
-                  }
-                }
-              });
-              jQuery(document).bind("gform_post_conditional_logic", function(
-                event,
-                formId,
-                fields,
-                isInit
-              ) {});</script
-            ><script type="text/javascript">
-              jQuery(document).ready(function() {
-                jQuery(document).trigger("gform_post_render", [8, 1]);
-              });
-            </script>
-          </div>
-        </div>
-
+        <AgentQuote />
+        <p>AgentQuote goes here.</p>
         <article>
             <div class="fl-module-content fl-node-content">
                 <h3 class="fl-heading">
@@ -924,12 +669,14 @@
 </template>
 
 <script>
-  import AnimatedCoverageGrid from './partials/index/animated_coverage_grid';
+  import AnimatedCoverageGrid    from './partials/index/animated_coverage_grid';
   import IntroHeadlineAndArticle from './partials/index/intro-headline-and-article';
+  import AgentQuote              from './partials/index/agent-quote';
   export default {
     components: {
       AnimatedCoverageGrid,
-      IntroHeadlineAndArticle
+      IntroHeadlineAndArticle,
+      AgentQuote
     }
   }
 </script>
@@ -940,6 +687,9 @@ img {
 }
 img {
   border: 0;
+}
+.h4, h4 {
+    font-size: 18px;
 }
 .container {
   word-wrap: break-word;
@@ -1035,9 +785,52 @@ align-items: stretch;
   line-height: 0;
   align-self: center;    /* vertical centering */
 }
+.got-you-covered {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+
+}
+
 .content-grid {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
+
+.three-kinds-of-coverage {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+}
+
+.got-you-covered .fl-heading {
+  text-align: center;
+}
+.got-you-covered h4 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  color: #4c4c4c;
+  margin: 220;
+
+}
+.three-kinds-of-coverage .fl-heading {
+  text-align: center;
+}
+.three-kinds-of-coverage h4 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  color: #4c4c4c;
+
+}
+.three-kinds-of-coverage p {
+  margin: 20px;
+}
 </style>
+<
